@@ -7,7 +7,11 @@ const colorArray = [
 ];
 
 function App() {
-  return <Colors colors={colorArray} />;
+  return (
+    <div>
+      <Colors colors={colorArray} />
+    </div>
+  );
 }
 
 export default App;

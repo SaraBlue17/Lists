@@ -1,3 +1,3 @@
 export default function Color({ color }) {
-  return (<li>{color.name}</li>);
+  return (<li key={color.id}>{color.name}</li>);
 }
